@@ -241,4 +241,17 @@ footer {
     .project-card p {
         font-size: 1rem;
     }
+
+    /* Make videos responsive */
+.responsive-video {
+    width: 100%;
+    max-width: 600px; /* Keeps the maximum size manageable */
+    height: auto; /* Automatically adjusts the height based on aspect ratio */
+    border: 1px solid #ddd; /* Optional: Adds a border for aesthetics */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a polished look */
+    display: block; /* Ensures proper alignment */
+    margin: 10px auto; /* Centers the video */
+}
+
 }
